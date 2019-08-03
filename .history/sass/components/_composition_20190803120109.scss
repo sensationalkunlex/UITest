@@ -1,0 +1,95 @@
+.composition {
+
+    position: relative;
+    background: $color-white;
+   
+    box-shadow: 0 1rem 2rem rgba($color-black,.2);
+    border-radius: 1rem;
+    //composition:hover composition__photo:not(:hover) {
+
+
+       
+}
+.add-padding{
+    padding: 1rem 1rem 0 1rem;
+}
+.remove-margin{
+    margin-bottom: 0rem;
+}
+.small-image{
+    height: 2rem;
+
+}
+
+  .notification {
+    color: white;
+    text-decoration: none;
+    padding: 0rem 0rem;
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    top: 4rem;
+    right: 4rem;
+    .badge {
+        position: absolute;
+        top: -1rem;
+        right: -0.4rem;
+        border-radius: 50%;
+        background: rgba(18, 31, 221, 0.836);
+        color: #fff;
+        padding: 1px 4px;
+      }
+  }
+  
+main{
+    margin-top: -7rem;
+}
+
+
+.actions {
+    
+    width: 100%;
+    float: left;
+    display: block;
+    margin: 0 auto;
+    .send{
+        width: 24%;
+        display: inline-block;
+        padding: 2rem;
+        font-size: 1.5rem;
+        padding: 2.5rem;
+        text-align: center;
+    }
+    .others{
+    width: 49%;
+    padding: 2.5rem;
+    float: left;
+    display: inline-block;
+        &--icon{
+            float: left;
+            width: 33%;
+            display: inline-block;
+            &--image{
+               
+                border-radius: 50%;
+                height: 5rem;
+                border: solid 0.5rem rgba(238, 230, 230, 0.57);
+                background:  rgba(238, 230, 230, 0.57);
+            }
+
+        }
+        &--text{
+            float: left;
+            width: 58%;
+            display: table;
+            height: 5rem;
+            font-size: 1.6rem;
+            &--content{
+    display: table-cell;
+    vertical-align: middle;
+
+}
+        }
+       
+    }
+}

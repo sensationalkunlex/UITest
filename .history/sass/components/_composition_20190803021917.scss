@@ -1,0 +1,43 @@
+.composition {
+    margin-top: -10rem;
+    position: relative;
+    background: $color-white;
+    height: 40rem;
+    box-shadow: 0 1rem 2rem rgba($color-black,.2);
+    border-radius: 1rem;
+    //composition:hover composition__photo:not(:hover) {
+
+
+       
+}
+.addpadding{
+    padding: 1rem 0;
+}
+.remove-margin{
+    margin-bottom: 0rem;
+}
+.small-image{
+    height: 2rem;
+}
+.notification 
+  .notification {
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    top:1rem;
+    right: 3rem;
+    .badge {
+        position: absolute;
+        top: -1rem;
+        right: -1rem;
+        padding: .5rem .1rem;
+        border-radius: 50%;
+        background:rgba(18, 31, 221, 0.836);
+        color:$color-white;
+      }
+  }
+  
+  

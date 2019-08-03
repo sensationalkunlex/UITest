@@ -1,0 +1,15 @@
+.composition {
+    margin-top: -10rem;
+    position: relative;
+    background: $color-white;
+    height: 40rem;
+    box-shadow: 0 1rem 2rem rgba($color-black,.2);
+    border-radius: 1rem;
+    //composition:hover composition__photo:not(:hover) {
+}
+.addpadding{
+    padding: 0.5rem;
+}
+.remove-margin{
+    margin-bottom: 0rem;
+}

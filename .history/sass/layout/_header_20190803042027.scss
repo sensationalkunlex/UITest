@@ -1,0 +1,37 @@
+.header {
+    height: 30rem;
+    background-image: linear-gradient(
+        to right top,
+        rgba($color-primary-dark, 0.8),
+        rgba($color-primary-light, 0.8));
+    background-size: cover;
+    background-position: top;
+    
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 120%, 0 80%);
+    padding-bottom: 5rem;
+
+    
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    .ba-icon {
+        height: 3.5rem;
+        color: $color-white;
+    }
+    .profile{
+        top: 7rem;
+        position: absolute;
+        width: 100%;
+    }
+    
+   img{
+    height: 10rem;
+    clip-path: circle(38% at 50% 50%);
+    outline: 1.5rem solid $color-white;
+    outline-offset: 2rem;
+
+   }
+}

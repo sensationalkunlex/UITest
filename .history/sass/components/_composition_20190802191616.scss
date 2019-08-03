@@ -1,0 +1,11 @@
+.composition {
+    position: relative;
+    background: #aaffaa;
+
+    }
+
+    &:hover &__photo:not(:hover) {
+        transform: scale(.95);
+    }
+    //composition:hover composition__photo:not(:hover) {
+}
