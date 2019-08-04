@@ -1,0 +1,51 @@
+
+ 
+  
+.view-card {
+  overflow-x: auto;
+  display: flex;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-left: 2rem;    
+  box-shadow: 5px 4rem 9rem 2rem rgba(114, 111, 125, 0.2);
+  .card {
+    flex: 0 0 auto;
+    display: block;
+    transition: 0.3s;
+    width: 85%;
+    height: 14rem;
+    border-radius: .7rem;
+    background-image: linear-gradient(to right top, #4c4ff1, #a1bdf5);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+    color: white;
+    /* padding-left: 3rem; */
+    margin-right: 0.7rem;
+      &:hover {
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+          .icon{
+            inline-block;
+    padding: 2rem 3rem;
+    float: left;
+          }
+          .text{    display: flex;
+            padding: 2rem 3rem;
+            float: left;
+          }
+   span{
+     display: block;
+   }
+    }
+  &::-webkit-scrollbar {    display: none;}
+}
+.promo{
+
+    .text-black{
+        display: inline;
+        float: left;
+    }
+    .arrow{
+        display: inline;
+        float: right;
+    }
+}

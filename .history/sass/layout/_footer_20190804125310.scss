@@ -1,0 +1,29 @@
+
+ 
+  
+.view-card {
+  overflow-x: auto;
+  display: flex;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-left: 2rem;    
+  box-shadow: 5px 4rem 9rem 2rem rgba(114, 111, 125, 0.2);
+  .card {
+    flex: 0 0 auto;
+    display: inline-block;
+
+  }
+  
+  &::-webkit-scrollbar {    display: none;}
+}
+.promo{
+
+    .text-black{
+        display: inline;
+        float: left;
+    }
+    .arrow{
+        display: inline;
+        float: right;
+    }
+}
