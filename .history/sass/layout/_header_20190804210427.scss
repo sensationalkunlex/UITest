@@ -6,9 +6,11 @@
         rgba($color-primary-light, 0.8));
     background-size: cover;
     background-position: top;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 120%, 0 80%);
+    -wweclip-path: polygon(0 0, 100% 0, 100% 80%, 50% 120%, 0 80%);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 120%, 0 80%);
     padding-bottom: 5rem;
+    
+
     
     &__logo-box {
         position: absolute;

@@ -360,6 +360,7 @@ main {
   background-image: linear-gradient(to right top, rgba(45, 49, 228, 0.8), rgba(147, 132, 218, 0.8));
   background-size: cover;
   background-position: top;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 120%, 0 80%);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 120%, 0 80%);
   padding-bottom: 5rem; }
   .header__logo-box {
