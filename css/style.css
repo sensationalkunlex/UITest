@@ -260,7 +260,7 @@ main {
     .actions .others--icon {
       float: left;
       display: inline-block;
-      padding: 1px; }
+      padding: 0.6rem; }
     .actions .others--text {
       float: left;
       width: 58%;
@@ -366,10 +366,12 @@ main {
   .header__logo-box {
     position: absolute;
     top: 4rem;
-    left: 4rem; }
+    left: 4rem;
+    position: fixed; }
   .header .ba-icon {
     height: 3.5rem;
-    color: #fff; }
+    color: #fff;
+    position: fixed; }
   .header .profile {
     top: 12rem;
     position: absolute;
