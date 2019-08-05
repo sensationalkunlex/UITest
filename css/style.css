@@ -368,8 +368,7 @@ main {
   .header__logo-box {
     position: absolute;
     top: 4rem;
-    left: 4rem;
-    position: fixed; }
+    left: 4rem; }
   .header .ba-icon {
     height: 3.5rem;
     color: #fff; }
