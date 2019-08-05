@@ -393,6 +393,7 @@ main {
     height: 7rem;
     width: 7rem;
     clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
     border: 0.5rem solid #fff; }
 
 .header-wrap {

@@ -48,7 +48,7 @@
     height: 7rem;
     width: 7rem;
     clip-path: circle(50% at 50% 50%);
-    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
     border: .5rem solid $color-white;
    }
 }
