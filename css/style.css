@@ -364,7 +364,7 @@ main {
 
 .header {
   height: 30rem;
-  background-image: linear-gradient(to right, #1409f0 90%, rgba(0, 89, 253, 0.7));
+  background-image: linear-gradient(to right top, #1409f0 80%, rgba(0, 89, 253, 0.9));
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 120%, 0 80%);

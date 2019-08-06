@@ -1,9 +1,9 @@
 .header {
     height: 30rem;
     background-image: linear-gradient(
-        to right top,
-        rgba($color-primary-dark , 1) 80%,
-        rgba($color-primary-light, 0.9));
+        to right,
+        rgba($color-primary-dark , 1) 90%,
+        rgba($color-primary-light, 0.));
     background-size: cover;
     background-position: top;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 120%, 0 80%);
