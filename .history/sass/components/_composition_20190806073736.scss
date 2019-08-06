@@ -80,8 +80,8 @@ main{
             &--image{
                
                    border-radius: 50%;
-                   height: 4rem;
-                   width: 4rem;
+                   height: 3rem;
+                   width: rem;
                   border: solid 0.5rem rgba(238, 230, 230, 0.57);
                
             }
@@ -91,7 +91,7 @@ main{
             float: left;
             width: 58%;
             display: table;
-            height: 4rem;
+            height: 3rem;
             font-size: 1.6rem;
             &--content{
     display: table-cell;
