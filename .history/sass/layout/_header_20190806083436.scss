@@ -1,5 +1,5 @@
 .header {
-    height: 25rem;
+    height: 30rem;
     background-image: linear-gradient(
         to right top,
         rgba($color-primary-dark , 0.8) 10%,
@@ -21,7 +21,7 @@
         color: $color-white;
         }
     .profile{
-        top: 8.3rem;
+        top: 12rem;
         position: absolute;
         width: 100%;
         &-content{    

@@ -61,23 +61,25 @@ main{
         font-size: 1.5rem;
       
         text-align: center;
-        .round{
-            
         img{
             height: 5rem;
             width: 5rem; 
-            position: relative;
-            border: solid 0.5rem rgba(238, 230, 230, 0.57);
-            border-radius: 50%;
         }
-    }
-
-      
         h3{
             text-align: center;
         }
     }
-    
+    se:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 5px;
+        border: 2px solid #ccc;
+      }
     .others{
     width: 50%;
     float: left;

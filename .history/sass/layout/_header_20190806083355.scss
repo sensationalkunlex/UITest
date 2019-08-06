@@ -1,9 +1,9 @@
 .header {
-    height: 25rem;
+    height: 30rem;
     background-image: linear-gradient(
         to right top,
-        rgba($color-primary-dark , 0.8) 10%,
-        rgba($color-primary-light, 0.8));
+        rgba($color-primary-dark , 1) 10%,
+        rgba($color-primary-light, 0.9));
     background-size: cover;
     background-position: top;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 120%, 0 80%);
@@ -21,7 +21,7 @@
         color: $color-white;
         }
     .profile{
-        top: 8.3rem;
+        top: 12rem;
         position: absolute;
         width: 100%;
         &-content{    
