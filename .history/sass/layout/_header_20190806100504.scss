@@ -21,7 +21,7 @@
         color: $color-white;
         }
     .profile{
-        top: 7.3rem;
+        top: 8.3rem;
         position: absolute;
         width: 100%;
         &-content{    
@@ -54,15 +54,16 @@
    }
 }
 
+
 .notification {
     color: white;
     text-decoration: none;
-    padding: 0;
+    padding: 0rem 0rem;
     position: absolute;
     display: inline-block;
     border-radius: 50%;
     top: 3rem;
-    right: 3rem;
+    right: 2rem;
     .badge {
         position: absolute;
         top: -1rem;
@@ -75,14 +76,6 @@
         text-align: center;
       }
   }
-  
-main{
-    margin-top: -7.7rem;
-}
-
-
-
-
 .header-wrap{   
      filter: drop-shadow(1rem 1rem 1rem rgba(0, 0, 0, 0.2));
 }

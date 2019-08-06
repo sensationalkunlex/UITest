@@ -11,8 +11,8 @@
     padding-bottom: 5rem;
     &__logo-box {
         position: absolute;
-        top: 3rem;
-        left: 3rem;
+        top: 4rem;
+        left: 4rem;
  
     }
 
@@ -21,7 +21,7 @@
         color: $color-white;
         }
     .profile{
-        top: 7.3rem;
+        top: 8.3rem;
         position: absolute;
         width: 100%;
         &-content{    
@@ -51,38 +51,10 @@
     display: inline;
     height: 100%;
     margin: 0 auto;
+
+ 
    }
 }
-
-.notification {
-    color: white;
-    text-decoration: none;
-    padding: 0;
-    position: absolute;
-    display: inline-block;
-    border-radius: 50%;
-    top: 3rem;
-    right: 3rem;
-    .badge {
-        position: absolute;
-        top: -1rem;
-        right: -0.4rem;
-        border-radius: 50%;
-        background: rgba(18, 31, 221, 0.836);
-        color: #fff;
-        width: 1.5rem;
-        height: 1.5rem;
-        text-align: center;
-      }
-  }
-  
-main{
-    margin-top: -7.7rem;
-}
-
-
-
-
-.header-wrap{   
-     filter: drop-shadow(1rem 1rem 1rem rgba(0, 0, 0, 0.2));
+.header-wrap{
+   filter:  drop-shadow(1 1rem 2rem rgba($color-black,.2)) ;
 }

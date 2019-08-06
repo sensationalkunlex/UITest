@@ -216,29 +216,6 @@ body {
 .small-image {
   height: 2rem; }
 
-.notification {
-  color: white;
-  text-decoration: none;
-  padding: 0rem 0rem;
-  position: absolute;
-  display: inline-block;
-  border-radius: 50%;
-  top: 4rem;
-  right: 4rem; }
-  .notification .badge {
-    position: absolute;
-    top: -1rem;
-    right: -0.4rem;
-    border-radius: 50%;
-    background: rgba(18, 31, 221, 0.836);
-    color: #fff;
-    width: 1.5rem;
-    height: 1.5rem;
-    text-align: center; }
-
-main {
-  margin-top: -7rem; }
-
 .actions {
   width: 100%;
   float: left;
@@ -294,7 +271,7 @@ main {
     width: 85%;
     height: 14rem;
     border-radius: .7rem;
-    background-image: linear-gradient(to right, #0029e2 20%, #478dff);
+    background-image: linear-gradient(to right, #7462ee 20%, #6299f4);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
     color: #ffffff;
     margin-right: 0.7rem; }
@@ -304,7 +281,7 @@ main {
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
     .view-card .card .icon {
       display: inline-block;
-      padding: 4rem 3rem;
+      padding: 4rem 2.4rem;
       float: left; }
     .view-card .card .text {
       display: inline-block;
@@ -334,7 +311,7 @@ main {
   @media only screen and (max-width: 56.25em) {
     .row {
       max-width: 50rem;
-      padding: 0 1rem; } }
+      padding: 0 1.8rem; } }
   .row::after {
     content: "";
     display: table;
@@ -367,7 +344,7 @@ main {
 
 .header {
   height: 25rem;
-  background-image: linear-gradient(to right top, rgba(100, 95, 197, 0.8) 10%, rgba(200, 5, 248, 0.8));
+  background-image: linear-gradient(to right top, rgba(100, 95, 197, 0.8) 15%, rgba(200, 5, 248, 0.8));
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 120%, 0 80%);
@@ -375,13 +352,13 @@ main {
   padding-bottom: 5rem; }
   .header__logo-box {
     position: absolute;
-    top: 4rem;
-    left: 4rem; }
+    top: 3rem;
+    left: 3rem; }
   .header .ba-icon {
     height: 3.5rem;
     color: #fff; }
   .header .profile {
-    top: 8.3rem;
+    top: 7.3rem;
     position: absolute;
     width: 100%; }
     .header .profile-content {
@@ -406,8 +383,31 @@ main {
     height: 100%;
     margin: 0 auto; }
 
+.notification {
+  color: white;
+  text-decoration: none;
+  padding: 0;
+  position: absolute;
+  display: inline-block;
+  border-radius: 50%;
+  top: 3rem;
+  right: 3rem; }
+  .notification .badge {
+    position: absolute;
+    top: -1rem;
+    right: -0.4rem;
+    border-radius: 50%;
+    background: rgba(18, 31, 221, 0.836);
+    color: #fff;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center; }
+
+main {
+  margin-top: -7.7rem; }
+
 .header-wrap {
-  filter: drop-shadow(1 1rem 2rem rgba(0, 0, 0, 0.2)); }
+  filter: drop-shadow(1rem 1rem 1rem rgba(0, 0, 0, 0.2)); }
 
 .navbar {
   background-color: white;

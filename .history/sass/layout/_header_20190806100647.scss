@@ -21,7 +21,7 @@
         color: $color-white;
         }
     .profile{
-        top: 7.3rem;
+        top: 8.3rem;
         position: absolute;
         width: 100%;
         &-content{    
@@ -57,12 +57,12 @@
 .notification {
     color: white;
     text-decoration: none;
-    padding: 0;
+    padding: 0rem 0rem;
     position: absolute;
     display: inline-block;
     border-radius: 50%;
-    top: 3rem;
-    right: 3rem;
+    top: 4rem;
+    right: 4rem;
     .badge {
         position: absolute;
         top: -1rem;
