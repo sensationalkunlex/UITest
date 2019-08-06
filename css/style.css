@@ -117,7 +117,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, #b382f5, #756feb);
+  background-image: linear-gradient(to right, #3d80fc, #1409f0);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: .2rem;
@@ -133,7 +133,7 @@ body {
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .heading-tertiary {
-  font-size: 1.06rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-transform: capitalize; }
 
@@ -146,7 +146,7 @@ body {
   font-size: 1rem;
   color: rgba(222, 222, 222, 0.88);
   text-transform: capitalize;
-  font-weight: 300; }
+  font-weight: 500; }
 
 .paragraph {
   font-size: 1.4rem; }
@@ -291,7 +291,7 @@ main {
     width: 85%;
     height: 14rem;
     border-radius: .7rem;
-    background-image: linear-gradient(to right, #7459e8 60%, #639af5);
+    background-image: linear-gradient(to right, #0029e2 20%, #478dff);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
     color: #ffffff;
     margin-right: 0.7rem; }
@@ -364,7 +364,7 @@ main {
 
 .header {
   height: 30rem;
-  background-image: linear-gradient(to right, #756feb 70%, rgba(179, 130, 245, 0.8));
+  background-image: linear-gradient(to right, #1409f0 90%, rgba(61, 128, 252, 0.8));
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 120%, 0 80%);
