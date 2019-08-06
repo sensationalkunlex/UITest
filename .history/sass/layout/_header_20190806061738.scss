@@ -1,0 +1,61 @@
+.header {
+    height: 30rem;
+    background-image: linear-gradient(
+        to right top,
+        rgba($color-primary-dark , 1) 70%,
+        rgba($color-primary-light, 0.8));
+    background-size: cover;
+    background-position: top;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 120%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 120%, 0 80%);
+    padding-bottom: 5rem;
+    
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+ 
+    }
+
+    .ba-icon {
+        height: 3.5rem;
+        color: $color-white;
+        }
+    .profile{
+        top: 12rem;
+        position: absolute;
+        width: 100%;
+        &-content{    
+            float: left;
+            display: block;
+            &--img{
+               
+                margin: 1rem;
+                float: left;
+                display: inline-block;
+                width: 7rem;
+                height: 7rem;
+                position: relative;
+                overflow: hidden;
+                border-radius: 50%;
+                border: .5rem solid $color-white;
+            }
+            &--text-content{  
+                float: left;
+                display: grid;
+                padding-top: 1rem;
+            }
+        }
+
+    }
+   img{
+    display: inline;
+    height: 100%;
+    margin: 0 auto;
+
+ 
+   }
+}
+.header-wrap{
+   filter:  drop-shadow(1 1rem 2rem rgba($color-black,.2)) ;
+}
