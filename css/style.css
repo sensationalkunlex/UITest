@@ -247,16 +247,16 @@ main {
   .actions .send {
     width: 24%;
     display: inline-block;
-    padding: 2rem;
+    margin: 1rem auto;
     font-size: 1.5rem;
-    padding: 2.5rem;
     text-align: center; }
     .actions .send img {
       height: 5rem;
       width: 5rem; }
+    .actions .send h3 {
+      text-align: center; }
   .actions .others {
     width: 50%;
-    padding: 2.5rem;
     float: left;
     display: inline-block; }
     .actions .others--icon {
@@ -380,21 +380,24 @@ main {
       float: left;
       display: block; }
       .header .profile-content--img {
-        padding: 1rem;
+        padding: 1.3rem;
+        margin: 1rem;
         float: left;
-        display: inline-block; }
+        display: inline-block;
+        width: 7rem;
+        height: 7rem;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 0.5rem solid #fff; }
       .header .profile-content--text-content {
         float: left;
         display: grid;
         padding-top: 1rem; }
   .header img {
-    height: 10rem;
-    border-radius: 50%;
-    height: 7rem;
-    width: 7rem;
-    clip-path: circle(50% at 50% 50%);
-    -webkit-clip-path: circle(50% at 50% 50%);
-    border: 0.5rem solid #fff; }
+    display: inline;
+    height: 100%;
+    margin: 0 auto; }
 
 .header-wrap {
   filter: drop-shadow(1 1rem 2rem rgba(0, 0, 0, 0.2)); }

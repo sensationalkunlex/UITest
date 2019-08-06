@@ -29,8 +29,7 @@
             float: left;
             display: block;
             &--img{
-                padding: 1.3rem;
-                margin: 1rem;
+                padding: 1rem;
                 float: left;
                 display: inline-block;
                 width: 7rem;
@@ -38,7 +37,6 @@
                 position: relative;
                 overflow: hidden;
                 border-radius: 50%;
-                border: .5rem solid $color-white;
             }
             &--text-content{  
                 float: left;
@@ -49,11 +47,12 @@
 
     }
    img{
-    display: inline;
-    height: 100%;
-    margin: 0 auto;
-
- 
+   
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+    
+    border: .5rem solid $color-white;
    }
 }
 .header-wrap{
